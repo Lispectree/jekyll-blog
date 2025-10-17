@@ -6,7 +6,6 @@ categories: web-security
 tags: [ssti, pentesting]
 ---
 # High-level summary
-
 Server-side template injection (SSTI) occurs when user-supplied input is rendered inside a server-side template without proper sanitization. SSTI can allow attackers to execute arbitrary code, access sensitive objects, or manipulate server-side logic. These labs demonstrate SSTI in multiple template engines: ERB (Ruby), Freemarker (Java), Handlebars, and Django, showing how attackers can exploit template engines to perform destructive or sensitive operations safely in a lab environment.
 
 ---
