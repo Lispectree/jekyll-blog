@@ -3,7 +3,7 @@ layout: post
 title:  API Testing  write-up"
 date: 2025-10-17
 categories: web-security
-tags: [access-control, pentesting]
+tags: [api testing, pentesting]
 ---
 
 # High-level summary
