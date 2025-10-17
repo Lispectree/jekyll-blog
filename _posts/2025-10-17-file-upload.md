@@ -1,3 +1,10 @@
+---
+layout: post
+title: "File upload write-up"
+date: 2025-10-17
+categories: web-security
+tags: [file upload, pentesting]
+---
 # High-level summary
 
 File upload vulnerabilities occur when an application allows users to upload files without proper security checks. Attackers can exploit this to upload scripts or other malicious files, potentially executing code on the server. Learning about these flaws helps developers secure file upload features and prevent unauthorized access.
