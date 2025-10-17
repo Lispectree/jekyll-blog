@@ -1,5 +1,12 @@
-# High-level summary
+---
+layout: post
+title: clickjacking write-up"
+date: 2025-10-17
+categories: web-security
+tags: [access-control, pentesting]
+---
 
+# High-level summary
 Clickjacking tricks a user into clicking something on a trusted site by hiding that site in a transparent frame and placing attractive buttons over it. It’s like placing a transparent overlay over a real button and getting someone to click the overlay instead. These labs show simple ways attackers can build clickjacking pages and why sites should use frame-busting or frame-allow policies.
 
 ## Lab 1 — Basic clickjacking with CSRF token protection
