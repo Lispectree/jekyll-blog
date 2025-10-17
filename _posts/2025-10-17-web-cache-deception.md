@@ -1,3 +1,10 @@
+---
+layout: post
+title: Web Cache Deception write-up
+date: 2025-10-17
+categories: web-security
+tags: [web cache deception, pentesting]
+---
 # High-level summary
 
 Web cache deception attacks trick a cache into storing private pages under URLs that look like static files. If the cache later serves those URLs to other users, sensitive data (like API keys) can leak. These labs show how differences in how the origin server and the cache treat paths can be abused — think of it like hiding a private letter in a public folder with a harmless filename.
