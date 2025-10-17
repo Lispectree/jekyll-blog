@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Web Cache Poisoning write-up
+title: Web Cache Poisoning write-up
 date: 2025-10-17
 categories: web-security
 tags: [web cache poisoning, pentesting]
