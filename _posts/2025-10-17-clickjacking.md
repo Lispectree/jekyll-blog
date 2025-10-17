@@ -1,6 +1,6 @@
 ---
 layout: post
-title: clickjacking write-up"
+title: Clickjacking write-up
 date: 2025-10-17
 categories: web-security
 tags: [clickjacking,pentesting]
