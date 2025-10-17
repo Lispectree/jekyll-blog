@@ -6,10 +6,7 @@ categories: web-security
 tags: [authentication, pentesting]
 ---
 
-# Authentication Vulnerabilities — Simple Walkthroughs
-
-**High-level summary of authentication vulnerabilities**
-
+# High-level summary
 Authentication is how a website checks who you are (usually with a username and password). Authentication vulnerabilities are mistakes that let someone pretend to be another user or get into accounts they shouldn't. These can include revealing whether a user exists, weak reset logic, predictable tokens, and session problems. The two labs below show two common authentication mistakes and how they can be demonstrated in a safe lab.
 
 ---
