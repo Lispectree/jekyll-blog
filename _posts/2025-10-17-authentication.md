@@ -3,7 +3,7 @@ layout: post
 title:  Authentication write-up"
 date: 2025-10-17
 categories: web-security
-tags: [access-control, pentesting]
+tags: [authentication, pentesting]
 ---
 
 # Authentication Vulnerabilities — Simple Walkthroughs
