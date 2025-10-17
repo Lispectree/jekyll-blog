@@ -1,7 +1,11 @@
-# OS Command Injection — Simple Walkthroughs
-
-**High-level summary of OS Command Injection**
-
+---
+layout: post
+title: OS Command Injection write-up
+date: 2025-10-17
+categories: web-security
+tags: [os command injection, pentesting]
+---
+# High-level summary
 OS Command Injection happens when a website takes text you give it and runs that text as a command on the server. If the site doesn’t check or limit that text, someone can add extra commands to be executed — for example, to find the username the server runs as, or to write command output to a file and read it later. This is dangerous because it lets an attacker run commands on the server itself.
 
 ---
