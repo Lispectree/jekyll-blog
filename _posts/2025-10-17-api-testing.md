@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Access control write-up"
+title:  API Testing  write-up"
 date: 2025-10-17
 categories: web-security
 tags: [access-control, pentesting]
 ---
-# API Testing Labs
+# API Testing 
 
 **High-level summary:**
 API vulnerabilities occur when web applications expose endpoints that can be accessed in unexpected ways. Attackers can manipulate these endpoints to retrieve data, modify resources, or perform actions they shouldn't be allowed to. This lab set teaches beginners how to explore and test API endpoints safely.
