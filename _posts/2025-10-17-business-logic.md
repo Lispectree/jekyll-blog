@@ -3,7 +3,7 @@ layout: post
 title: Business Logic  write-up"
 date: 2025-10-17
 categories: web-security
-tags: [access-control, pentesting]
+tags: [business logic, pentesting]
 ---
 
 # High-level summary
