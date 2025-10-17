@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  API Testing  write-up"
+title:  API Testing  write-up
 date: 2025-10-17
 categories: web-security
 tags: [api testing, pentesting]
