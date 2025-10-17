@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Insecure Deserialization write-up"
+date: 2025-10-17
+categories: web-security
+tags: [insecure deserialization, pentesting]
+---
 # High-level summary
 
 Insecure deserialization happens when an application accepts serialized data (structured data turned into a string) from a user and restores it without checking it first. Attackers can modify that serialized data to change program logic — for example, flipping an "admin" flag — which can give them extra privileges or cause unexpected behavior. These labs show simple, hands-on examples of that risk.
