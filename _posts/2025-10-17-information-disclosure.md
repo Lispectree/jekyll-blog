@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Information Disclosure write-up"
+date: 2025-10-17
+categories: web-security
+tags: [information disclosure, pentesting]
+---
 # High-level summary
 
 Information disclosure vulnerabilities happen when an application accidentally reveals sensitive information. This could include error messages, system details, or hints about access rules. Learning about these helps prevent attackers from using that information maliciously.
