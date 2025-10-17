@@ -1,7 +1,11 @@
-# Path Traversal — Simple Walkthroughs
-
-**High-level summary of Path Traversal**
-
+---
+layout: post
+title: Path Traversal write-up
+date: 2025-10-17
+categories: web-security
+tags: [path traversal, pentesting]
+---
+# High-level summary
 Path Traversal happens when a website lets you request files by name (for example, images). If the site doesn’t carefully check the filename you give it, you can ask for files outside the intended folder — including sensitive system files. Attackers use special filename text (like `../`) to move up the folder structure and read files the server shouldn’t reveal.
 
 ---
