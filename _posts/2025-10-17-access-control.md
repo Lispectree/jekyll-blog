@@ -19,7 +19,7 @@ Access control vulnerabilities happen when an application does not properly enfo
 2. Look for JavaScript that shows the admin panel URL.
 3. Open the admin panel and complete the lab task.
 
-   ![image alt](https://github.com/Lispectree/web-sec/blob/8dc05cf749b36defe855a82cd955375c129dd404/labs/sql-injection/access%20control%20lab1%20photo%201.jpg)
+   ![image alt](https://github.com/Lispectree/jekyll-blog/blob/fda59878f5766993cb72c688599bf26d292555a8/images/access%20control%20lab1%20photo%201.jpg)
 This shows that the admin subdomain isn’t found
 
 ![image alt](https://github.com/Lispectree/web-sec/blob/120bbc6a0faf6eb4d872b44978d8007ddf56a8c0/labs/sql-injection/access%20control%20lab1%20photo%202.jpg)
