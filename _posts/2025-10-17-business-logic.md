@@ -7,7 +7,6 @@ tags: [business logic, pentesting]
 ---
 
 # High-level summary
-
 Business logic vulnerabilities happen when an application lets users bypass rules or manipulate normal processes. These flaws can let someone get extra items, discounts, or access areas they shouldn’t. Understanding these issues helps highlight the importance of proper checks in software.
 
 ## Lab 1 — Excessive trust in client side controls
