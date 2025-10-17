@@ -1,7 +1,11 @@
-# SQL Injection — Simple Walkthroughs
-
-**High-level summary of SQL Injection**
-
+---
+layout: post
+title: SQL Injection  write-up
+date: 2025-10-17
+categories: web-security
+tags: [sqli, pentesting]
+---
+# High-level summary
 SQL Injection (SQLi) happens when a website trusts the exact words you type and uses them to ask its database for information. If the site doesn’t check or change that text first, someone can type special words that change what the database does — for example, log in without a password, show hidden information, or make the site pause. The four labs below each show a simple, beginner-friendly example.
 
 ---
