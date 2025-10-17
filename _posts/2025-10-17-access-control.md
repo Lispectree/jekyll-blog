@@ -6,7 +6,6 @@ categories: web-security
 tags: [access-control, pentesting]
 ---
 # High-level summary
-
 Access control vulnerabilities happen when an application does not properly enforce who can do what. This can let users view or change data, perform actions, or access pages they shouldn't. Understanding these issues helps ensure users only get the permissions they are supposed to have.
 
 ## Lab 1 — Unprotected Admin Panel
