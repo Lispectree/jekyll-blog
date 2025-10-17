@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Access control write-up"
+date: 2025-10-17
+categories: web-security
+tags: [access-control, pentesting]
+---
 # API Testing Labs
 
 **High-level summary:**
