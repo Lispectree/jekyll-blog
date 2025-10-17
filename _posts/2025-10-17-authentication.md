@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Authentication write-up"
+title:  Authentication write-up
 date: 2025-10-17
 categories: web-security
 tags: [authentication, pentesting]
