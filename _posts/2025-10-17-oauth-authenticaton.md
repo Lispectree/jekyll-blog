@@ -1,3 +1,10 @@
+---
+layout: post
+title: Oauth Authentication write-up
+date: 2025-10-17
+categories: web-security
+tags: [oauth, pentesting]
+---
 # High-level summary
 
 OAuth (Open Authorization) lets sites delegate authentication to third-party providers. Misconfigured OAuth flows, missing CSRF protection, or trusting redirects can let an attacker log in as other users, link attacker-controlled social accounts to victims, or steal access tokens. These labs show common OAuth pitfalls and simple, safe ways to test them in a lab environment.
