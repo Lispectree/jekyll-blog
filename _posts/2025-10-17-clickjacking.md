@@ -3,7 +3,7 @@ layout: post
 title: clickjacking write-up"
 date: 2025-10-17
 categories: web-security
-tags: [access-control, pentesting]
+tags: [clickjacking,pentesting]
 ---
 
 # High-level summary
