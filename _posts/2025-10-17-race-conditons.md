@@ -1,5 +1,11 @@
+---
+layout: post
+title: Race Conditions write-up
+date: 2025-10-17
+categories: web-security
+tags: [race conditions, pentesting]
+---
 # High-level summary
-
 Race conditions occur when an application does not properly handle multiple operations happening at the same time. Attackers can exploit timing gaps to bypass restrictions, duplicate actions, or manipulate sensitive processes. Understanding these flaws helps developers design systems that safely manage simultaneous actions.
 
 ## Lab 1 — Limit Overrun Race Conditions
