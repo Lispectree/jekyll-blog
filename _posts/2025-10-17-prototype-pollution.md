@@ -1,3 +1,10 @@
+---
+layout: post
+title: Prototype Pollution write-up
+date: 2025-10-17
+categories: web-security
+tags: [prototype pollution, pentesting]
+---
 # High-level summary
 
 Prototype pollution happens when attacker-controlled input can modify built-in JavaScript prototypes (for example `Object.prototype`). This can change application behavior globally in the browser and often leads to DOM XSS by turning otherwise safe code into insecure sinks. Think of it like adding a new rule to every object — one injected property can make many parts of the app behave unexpectedly.
