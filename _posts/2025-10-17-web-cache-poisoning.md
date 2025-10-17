@@ -1,5 +1,11 @@
+---
+layout: post
+title:Web Cache Poisoning write-up
+date: 2025-10-17
+categories: web-security
+tags: [web cache poisoning, pentesting]
+---
 # High-level summary
-
 Web cache poisoning tricks a shared cache into storing attacker-controlled responses so other users later receive malicious content. These attacks exploit differences in how caches and origin servers treat request headers, query parameters, or URL paths. Think of it like slipping a malicious flyer into a community mailbox that everyone reads.
 
 ## Lab 1 — Web cache poisoning with an unkeyed header
