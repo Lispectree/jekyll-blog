@@ -1,3 +1,10 @@
+---
+layout: post
+title: Web Socket write-up
+date: 2025-10-17
+categories: web-security
+tags: [web sockets, pentesting]
+---
 # High-level summary
 
 WebSocket vulnerabilities arise when real-time messages between the browser and server are not properly validated or escaped. Because WebSockets send raw messages, an attacker or tester can tamper with those messages to inject HTML or scripts that run in a user's browser. These labs show how to inspect and manipulate WebSocket traffic safely in a lab environment.
