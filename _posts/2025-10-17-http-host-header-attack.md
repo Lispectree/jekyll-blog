@@ -1,3 +1,10 @@
+---
+layout: post
+title: "HTTP Host Header Attacks write-up"
+date: 2025-10-17
+categories: web-security
+tags: [http-host header attacks, pentesting]
+---
 # High-level summary
 
 Host header attacks abuse how a web application or its middleware uses the HTTP `Host` (or related) headers. If an app trusts unvalidated Host values, attackers can poison links in emails, cause cache poisoning, bypass routing checks, or trigger server-side requests to attacker-controlled hosts. These labs show common Host-header flaws and safe ways to test them in a lab environment.
