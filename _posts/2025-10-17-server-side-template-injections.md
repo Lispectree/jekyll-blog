@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seerver Side Template Injection write-up
+title: SSTI write-up
 date: 2025-10-17
 categories: web-security
 tags: [ssti, pentesting]
