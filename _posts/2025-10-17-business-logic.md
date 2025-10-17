@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Business Logic  write-up"
+title: Business Logic  write-up
 date: 2025-10-17
 categories: web-security
 tags: [business logic, pentesting]
