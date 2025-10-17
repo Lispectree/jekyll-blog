@@ -6,7 +6,7 @@ categories: web-security
 tags: [access-control, pentesting]
 ---
 
-**High-level summary:**
+**High-level summary**
 
 API vulnerabilities occur when web applications expose endpoints that can be accessed in unexpected ways. Attackers can manipulate these endpoints to retrieve data, modify resources, or perform actions they shouldn't be allowed to. This lab set teaches beginners how to explore and test API endpoints safely.
 
