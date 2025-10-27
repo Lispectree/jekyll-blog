@@ -42,11 +42,11 @@ Delete that user that was instructed by the lab
 ![Access Control Lab 2 Photo 1]({{ site.baseurl }}/images/access_control_lab2_photo_1.jpg)
 The lab information telling you the admin page is accessible to users with a roleid of 2
 
-![Access Control Lab 2 Photo 2](/images/access_control_lab2_photo_2.jpg)
+![Access Control Lab 2 Photo 2]({{ site.baseurl }}/images/access_control_lab2_photo_2.jpg)
 The request and response of the change email request as seen here
 Showing your role id
 
-![Access Control Lab 2 Photo 3](/images/access_control_lab2_photo_3.jpg)
+![Access Control Lab 2 Photo 3]({{ site.baseurl }}/images/access_control_lab2_photo_3.jpg)
 Role id can be manipulated by the user to 2 which will give you admin privileges
 Enter the admin panel and complete the lab
 
@@ -61,14 +61,14 @@ Enter the admin panel and complete the lab
 3. Change the header to /admin and forward the request.
 4. Use ?username=carlos in the query string with X-Original-URL: /admin/delete to complete the task.
 
-![Access Control Lab 3 Photo 1](/images/access_control_lab3_photo_1.jpg)
+![Access Control Lab 3 Photo 1]({{ site.baseurl }}/images/access_control_lab3_photo_1.jpg)
 This header highlighted(X-Original-url) shows that the request header Chan be manipulated bypassing restrictions
 
-![Access Control Lab 3 Photo 2](/images/access_control_lab3_photo_2.jpg)
+![Access Control Lab 3 Photo 2]({{ site.baseurl }}/images/access_control_lab3_photo_2.jpg)
 The admin page is assessed and the response contains a link to delete users
 Copy the link to delete the user as directed by the lab
 
-![Access Control Lab 3 Photo 3](/images/access_control_lab3_photo_3.jpg)
+![Access Control Lab 3 Photo 3]({{ site.baseurl }}/images/access_control_lab3_photo_3.jpg)
 Delete the user 
 And the lab is complete
 
@@ -84,10 +84,10 @@ And the lab is complete
 3. Copy the non-admin session cookie into Burp, adjust the username to yours, and forward the request.
 4. Complete the lab task.
 
-![Access Control Lab 4 Photo 1](/images/access_control_lab4_photo_1.jpg)
+![Access Control Lab 4 Photo 1]({{ site.baseurl }}/images/access_control_lab4_photo_1.jpg)
 The lab instructions
 
-![Access Control Lab 4 Photo 2](/images/access_control_lab4_photo_2.jpg)
+![Access Control Lab 4 Photo 2]({{ site.baseurl }}/images/access_control_lab4_photo_2.jpg)
 This is the request used to upgrade Carlos user
 We will copy this and use it for Wiener
 
