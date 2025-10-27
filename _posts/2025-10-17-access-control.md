@@ -21,7 +21,7 @@ Access control vulnerabilities happen when an application does not properly enfo
 ![Access Control Lab 1 Photo 1]({{ site.baseurl }}/images/access_control_lab1_photo_1.jpg)
 This shows that the admin subdomain isn’t found
 
-![Access Control Lab 1 Photo 2](/images/access_control_lab1_photo_2.jpg)
+![Access Control Lab 1 Photo 2]({{ site.baseurl }}/images/access_control_lab1_photo_2.jpg)
 /robots.txt shows hidden subdomains
 
 ![Access Control Lab 1 Photo 3](/images/access_control_lab1_photo_3.jpg)
