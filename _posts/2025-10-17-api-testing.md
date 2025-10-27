@@ -22,7 +22,7 @@ Learn how exposed API documentation can reveal endpoints and actions.
 4. Open the interactive documentation in your browser and locate the DELETE endpoint.
 5. Use the DELETE endpoint to remove the user carlos to solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/fdc933f392dc0420334bc9d4d90a285834a0c7f0/labs/sql-injection/ap1%20lab%201%20photo%201.jpg)
+![API Testing Lab 1 Photo 1]({{ site.baseurl }}/images/ap1 /lab 1 photo 1.jpg) 
 Use the update email function
 
 
