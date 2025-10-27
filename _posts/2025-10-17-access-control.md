@@ -18,7 +18,7 @@ Access control vulnerabilities happen when an application does not properly enfo
 2. Look for JavaScript that shows the admin panel URL.
 3. Open the admin panel and complete the lab task.
 
-![Access Control Lab 1 Photo 1](/images/access_control_lab1_photo_1.jpg)
+![Access Control Lab 1 Photo 1]({{ site.baseurl }}/images/access_control_lab1_photo_1.jpg)
 This shows that the admin subdomain isn’t found
 
 ![Access Control Lab 1 Photo 2](/images/access_control_lab1_photo_2.jpg)
