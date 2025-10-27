@@ -27,12 +27,12 @@ How a website’s different messages for login can reveal which usernames actual
 ![AUTH LAB 1 Photo 1]({{ site.baseurl }}/images/auth_lab1_photo_1.jpg)
 After trying a random username and password you get invalid username response
 
-![image alt](https://github.com/Lispectree/web-sec/blob/7a0062254ae4c5b5a76e8361a62f2eea927b3b13/web-security-labs/labs/authentication/AUTH%20Lab1%20Photo2.jpg)
+![API Testing Lab 1 Photo 2]({{ site.baseurl }}/images/api_testing_lab1_photo_2.jpg)
 After using the world list provided in the lab
 For username enumeration 
 One of the responses doesn’t show invalid username indicating the username is correct
 
-![image alt](https://github.com/Lispectree/web-sec/blob/cea709aef87c24b9c6558be349a0a0a796f90ed4/web-security-labs/labs/authentication/AUTH%20Lab1%20Photo3.jpg)
+![API Testing Lab 1 Photo 3]({{ site.baseurl }}/images/api_testing_lab1_photo_3.jpg)
 Next is to use the password worldlist for the username
 The one that brings out a status code of 302
 Is the correct password
@@ -53,10 +53,10 @@ If the password reset token isn’t validated when submitting a new password, an
 4. Request another reset for your account to get a fresh flow, capture the `POST` request again, remove the token value, and change the username field to another user (for example, `carlos`). Set a new password you choose and send the request.
 5. Try logging into that other user’s account (e.g., Carlos) with the new password. If it works, the reset logic is broken and allowed you to change someone else’s password without a valid token.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/f09eb5088fbdbb437656715644a42cfda65060c9/web-security-labs/labs/authentication/AUTH%20Lab2%20Photo1.jpg)
+![API Testing Lab 2 Photo 1]({{ site.baseurl }}/images/api_testing_lab2_photo_1.jpg)
 The forgot password function of the website
 
-![image alt](https://github.com/Lispectree/web-sec/blob/a4690360a2b63db55abdbafa3ab1721b586f0244/web-security-labs/labs/authentication/AUTH%20Lab2%20Photo2.jpg)
+![API Testing Lab 2 Photo 2]({{ site.baseurl }}/images/api_testing_lab2_photo_2.jpg)
 It contains a password token that is cross checked by a client controlled input
 Change the two to any random value and change the username to the account the lab instructed you to log into
 
