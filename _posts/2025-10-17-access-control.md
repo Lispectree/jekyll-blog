@@ -21,7 +21,7 @@ Access control vulnerabilities happen when an application does not properly enfo
 ![Access Control Lab 1 Photo 1](/jekyll-blog/images/access_control_lab1_photo_1.jpg)
 This shows that the admin subdomain isn’t found
 
-![Access Control Lab 1 Photo 1](/jekyll-blog/images/access_control_lab1_photo_2.jpg)
+![Access Control Lab 1 Photo 2](/jekyll-blog/images/access_control_lab1_photo_2.jpg)
 /robots.txt shows hidden subdomains
 
 ![image alt](https://github.com/Lispectree/web-sec/blob/5226e16c869b8109f5f226568b53f2eb2428aab6/labs/sql-injection/access%20control%20lab1%20photo%203.jpg)
