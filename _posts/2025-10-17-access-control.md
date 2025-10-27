@@ -91,7 +91,7 @@ The lab instructions
 This is the request used to upgrade Carlos user
 We will copy this and use it for Wiener
 
-![Access Control Lab 4 Photo 3](/images/access_control_lab4_photo_3.jpg)
+
 We use the path for Wiener and the lab is complete
 
 
