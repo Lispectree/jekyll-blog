@@ -26,7 +26,7 @@ Learn how exposed API documentation can reveal endpoints and actions.
 Use the update email function
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/991c4f87d38fb8320859f3b41f73576fa9f28f4c/labs/sql-injection/ap1%20lab%201%20photo%202.jpg)
+![API Testing Lab 1 Photo 2]({{ site.baseurl }}/images/api_testing_lab1_photo_2.jpg)
 Monitor the request and remove any other requests attached to the api to see that api documentation
 
 
