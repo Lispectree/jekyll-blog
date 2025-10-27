@@ -23,7 +23,8 @@ How a website’s different messages for login can reveal which usernames actual
 3. Run a Sniper attack using a list of candidate usernames. Intruder will try each name automatically.
 4. When the attack finishes, sort results by response length and compare messages. Most responses say “Invalid username,” but a longer response saying “Incorrect password” indicates a real username. Note it from the Payload column.
 5. Replace the username with that real user, set the password field as the payload position, and run a password list. If one request returns a `302` (redirect) while others return `200`, the `302` likely indicates a successful login. Use the credentials to log in and access the account page.
-![image alt](https://github.com/Lispectree/web-sec/blob/e45d210d4c567c15095848a54cbce550f5835d21/web-security-labs/labs/authentication/AUTH%20Lab1%20Photo1.jpg)
+   
+![AUTH LAB 1 Photo 1]({{ site.baseurl }}/images/auth_lab1_photo_1.jpg)
 After trying a random username and password you get invalid username response
 
 ![image alt](https://github.com/Lispectree/web-sec/blob/7a0062254ae4c5b5a76e8361a62f2eea927b3b13/web-security-labs/labs/authentication/AUTH%20Lab1%20Photo2.jpg)
