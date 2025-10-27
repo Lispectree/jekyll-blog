@@ -24,7 +24,7 @@ This shows that the admin subdomain isn’t found
 ![Access Control Lab 1 Photo 2]({{ site.baseurl }}/images/access_control_lab1_photo_2.jpg)
 /robots.txt shows hidden subdomains
 
-![Access Control Lab 1 Photo 3](/images/access_control_lab1_photo_3.jpg)
+![Access Control Lab 1 Photo 3]({{ site.baseurl }}/images/access_control_lab1_photo_3.jpg)
 Delete that user that was instructed by the lab
 
 ## Lab 2 — User Role Modification
@@ -39,7 +39,7 @@ Delete that user that was instructed by the lab
 4. Forward the request and confirm your new role.
 5. Access /admin and complete the lab task.
    
-![Access Control Lab 2 Photo 1](/images/access_control_lab2_photo_1.jpg)
+![Access Control Lab 2 Photo 1]({{ site.baseurl }}/images/access_control_lab2_photo_1.jpg)
 The lab information telling you the admin page is accessible to users with a roleid of 2
 
 ![Access Control Lab 2 Photo 2](/images/access_control_lab2_photo_2.jpg)
