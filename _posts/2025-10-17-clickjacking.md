@@ -21,7 +21,7 @@ Clickjacking tricks a user into clicking something on a trusted site by hiding t
 4. Change the decoy text to "Click me", store the exploit, then use "Deliver exploit to victim".
 5. When the victim clicks the decoy, the hidden iframe triggers the account deletion and the lab is solved.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/54b1c23748d32499e6f705f15fef1c76cc3c22b6/web-security-labs/labs/clickjacking/CLICKJACKING%20LAB1%20PHOTO1.jpg)
+![Clickjacking Lab 1 Photo 1]({{ site.baseurl }}/images/clickjacking_lab1_photo_1.jpg)
 The payload which we will put the underneath the account page
 
 
