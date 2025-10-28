@@ -38,8 +38,7 @@ The payload which we will put the underneath the account page
 5. When the victim clicks, the hidden form submits and the lab is solved.
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/54a2535e93107cfb444d1024193568e2d23b0a4c/web-security-labs/labs/clickjacking/CLICKJACKING%20LAB2%20PHOTO1.jpg)
-
+![Clickjacking Lab 2 Photo 1]({{ site.baseurl }}/images/clickjacking_lab2_photo_1.jpg) 
 
 
 ## Lab 3 — Multistep clickjacking
