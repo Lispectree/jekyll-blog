@@ -25,12 +25,12 @@ Host header attacks abuse how a web application or its middleware uses the HTTP 
 The lab instructions
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/403bc6dbd94c096903d67545fb5c8cdbcdc66760/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB1%20PHOTO2.jpg)
+![HTTP Host Header Attacks Lab 1 Photo 2]({{ site.baseurl }}/images/header_attack_lab1_photo_2.jpg)
 Use that account we want to get the reset token as the forgot password 
 And input our exploit server on it
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/4c83cb1aef30510695156806701e2fc2877ab93c/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB1%20PHOTO3.jpg)
+![HTTP Host Header Attacks Lab 1 Photo 3]({{ site.baseurl }}/images/header_attack_lab1_photo_3.jpg)
 The reset token of Carlos as seen in the exploit server
 
 ---
@@ -47,11 +47,11 @@ The reset token of Carlos as seen in the exploit server
 4. In Repeater add a second `Host` header with your exploit server domain and resend until the response shows your exploit URL and `X-Cache: hit` (cached). Open the cached URL in a browser to confirm the alert triggers.
 5. Replay as needed to keep the cache poisoned until the victim visits the page and the lab is solved.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/52026ba5a656284c21ae5521fb24d1259699b252/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB2%20PHOTO1.jpg)
+![HTTP Host Header Attacks Lab 2 Photo 1]({{ site.baseurl }}/images/header_attack_lab2_photo_1.jpg)
 The response contains a file gotten from the host header
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/f41f55e7b5070a36e9cc375581e25fd40f5ffabf/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB2%20PHOTO2.jpg)
+![HTTP Host Header Attacks Lab 2 Photo 2]({{ site.baseurl }}/images/header_attack_lab2_photo_2.jpg)
 Add another header in the request and notice that the file has been manipulated 
 Add your exploit server 
 Add a payload in the exploit server that gets user cookie
@@ -70,19 +70,19 @@ Save it in the cache
 4. From the admin panel, note the delete user form's CSRF token and session cookie. Craft a request to `/admin/delete` including the CSRF token and `username=carlos`, convert it to POST if needed, and send it to delete Carlos.
 5. Confirm Carlos is deleted to solve the lab.
 
-   ![image alt](https://github.com/Lispectree/web-sec/blob/40291f1eb1f381c2ec269b0a4753aeecfdb9ab64/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB3%20PHOTO1.jpg)
+![HTTP Host Header Attacks Lab 3 Photo 1]({{ site.baseurl }}/images/header_attack_lab3_photo_1.jpg)
    Admin page is not found
 
 
-      ![image alt](https://github.com/Lispectree/web-sec/blob/4026257e97a71f634150179f4bb7dc3befb5d283/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB3%20PHOTO2.jpg)
+![HTTP Host Header Attacks Lab 3 Photo 2]({{ site.baseurl }}/images/header_attack_lab3_photo_2.jpg)
    Use intruder to find the internal ip address
 
 
-      ![image alt](https://github.com/Lispectree/web-sec/blob/d6cbd75f2c3b4c2a6d1e114d03d9348b0388cbbe/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB3%20PHOTO3.jpg)
+![HTTP Host Header Attacks Lab 3 Photo 3]({{ site.baseurl }}/images/header_attack_lab3_photo_3.jpg)
    The status code of 200 indicate it is the internal ip
 
 
-      ![image alt](https://github.com/Lispectree/web-sec/blob/9eca6696c462890c360a5eaa39d09d56a96cd0f6/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB3%20PHOTO4.jpg)
+![HTTP Host Header Attacks Lab 3 Photo 4]({{ site.baseurl }}/images/header_attack_lab3_photo_4.jpg)
    Edit the host request to the internal ip and delete the user
    
 ## Lab 4 — Host validation bypass via connection state attack
