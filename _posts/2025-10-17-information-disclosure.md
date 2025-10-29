@@ -21,15 +21,15 @@ Information disclosure vulnerabilities happen when an application accidentally r
 4. Look at the error message showing server info.
 5. Submit the server version to complete the lab.
 
-![Information Disclosure Lab 3 Photo 1]({{ site.baseurl }}/images/information_disclosure_lab1_photo_1.jpg)
+![Information Disclosure Lab 1 Photo 1]({{ site.baseurl }}/images/information_disclosure_lab1_photo_1.jpg)
 The lab instructions
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/337664eac720b6ddd180114eaa84192398b27466/web-security-labs/labs/information-disclosure/INFORMATION%20LAB1%20PHOTO2.jpg)
+![Information Disclosure Lab 1 Photo 2]({{ site.baseurl }}/images/information_disclosure_lab1_photo_1.jpg)
 The number value indicate numbers are attached to the product
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/1e4905c8dbfac1cc4560f4890eb4d0df143a5488/web-security-labs/labs/information-disclosure/INFORMATION%20LAB1%20PHOTO3.jpg)
+![Information Disclosure Lab 1 Photo 3]({{ site.baseurl }}/images/information_disclosure_lab1_photo_3.jpg)
 After adding a randomized string 
 It brings out errror message and discloses additional information
 
@@ -46,17 +46,17 @@ It brings out errror message and discloses additional information
 5. Complete the lab task.
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/770296d9912cb56b826cddbb54f09e2f49ac3584/web-security-labs/labs/information-disclosure/INFORMATION%20LAB2%20PHOTO1.jpg)
+![Information Disclosure Lab 2 Photo 1]({{ site.baseurl }}/images/information_disclosure_lab2_photo_1.jpg)
 The lab instructions
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/7686607ee70ac1f9a598c21a6b933615774fbaf6/web-security-labs/labs/information-disclosure/INFORMATION%20LAB2%20PHOTO2.jpg)
+![Information Disclosure Lab 2 Photo 2]({{ site.baseurl }}/images/information_disclosure_lab2_photo_2.jpg)
 Using Trace method
 It shows in the response that your ip address is being checked
 Change it you an internal ip address and use get request to access the admin page
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/9489968d80f297eeb94870dc9ea1faa6f807610f/web-security-labs/labs/information-disclosure/INFORMATION%20LAB2%20PHOTO3.jpg)
+![Information Disclosure Lab 2 Photo 3]({{ site.baseurl }}/images/information_disclosure_lab2_photo_3.jpg)
 Delete the user and solve the lab
 
 
