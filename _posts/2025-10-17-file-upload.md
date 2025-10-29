@@ -25,11 +25,11 @@ File upload vulnerabilities occur when an application allows users to upload fil
 The upload file functionality
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/b0c57815d6b9c77680be2bef5d531fe2a0e4323a/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB1%20PHOTO2.jpg)
+![File Upload Lab 1 Photo 2]({{ site.baseurl }}/images/file_upload_lab1_photo_2.jpg) 
 The php file was uploaded to this path
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/0f169bec9b759024c56916d465368b664f04a384/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB1%20PHOTO3.jpg)
+![File Upload Lab 1 Photo 3]({{ site.baseurl }}/images/file_upload_lab1_photo_3.jpg) 
 Load that contents
 
 
@@ -48,12 +48,12 @@ Load that contents
 4. URL-encode the traversal sequence (..%2f) and forward the request again.
 5. GET the file in the browser and submit the secret.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/f207f04b8baecce883c29f7dc94890073ddb69dc/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB2%20PHOTO1.jpg)
+![File Upload Lab 2 Photo 1]({{ site.baseurl }}/images/file_upload_lab2_photo_1.jpg) 
 The payload that gets the api key of Carlos doesn’t execute 
 Indicating that the server doesn’t execute files that are uploaded by the client
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/1abe727876de4b8a56d5675b01d1bacb5ba52dd2/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB2%20PHOTO2.jpg)
+![File Upload Lab 2 Photo 2]({{ site.baseurl }}/images/file_upload_lab2_photo_2.jpg) 
 Change the path of the uploaded file by exploiting path traversal
 
 
@@ -69,15 +69,15 @@ Change the path of the uploaded file by exploiting path traversal
 4. Rename exploit.php to exploit.l33t and upload it.
 5. GET exploit.l33t in Burp Repeater to read the secret and submit it.
 
-   ![image alt](https://github.com/Lispectree/web-sec/blob/4b9dc8546d3f54b0f28d8b87d620f4dc6ba529c3/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB3%20PHOTO1.jpg)
+![File Upload Lab 3 Photo 1]({{ site.baseurl }}/images/file_upload_lab3_photo_1.jpg) 
    Php files are not allowed to be uploaded
 
 
-   ![image alt](https://github.com/Lispectree/web-sec/blob/5f652b781348f7c35a280e3979826fa2db38f9b9/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB3%20PHOTO2.jpg)
+ ![File Upload Lab 3 Photo 2]({{ site.baseurl }}/images/file_upload_lab3_photo_2.jpg) 
 The response discloses additional information like the server being an Apache server
 
 
-   ![image alt](https://github.com/Lispectree/web-sec/blob/e9813bcb0342b97193fdfc083ade14dd6f426af2/web-security-labs/labs/file-upload/FILE%20UPLOAD%20LAB3%20PHOTO3.jpg)
+![File Upload Lab 3 Photo 3]({{ site.baseurl }}/images/file_upload_lab3_photo_3.jpg) 
    Create a daemon file (httpd) that will make an executable file work
 
 
