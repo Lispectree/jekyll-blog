@@ -21,7 +21,7 @@ Information disclosure vulnerabilities happen when an application accidentally r
 4. Look at the error message showing server info.
 5. Submit the server version to complete the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/0ba928deb2a195ef8c2dc7ecad1253739f3719d6/web-security-labs/labs/information-disclosure/INFORMATION%20LAB1%20PHOTO1.jpg)
+![Information Disclosure Lab 3 Photo 1]({{ site.baseurl }}/images/information_disclosure_lab1_photo_1.jpg)
 The lab instructions
 
 
