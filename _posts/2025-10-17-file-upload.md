@@ -21,7 +21,7 @@ File upload vulnerabilities occur when an application allows users to upload fil
 4. Upload this PHP file as your avatar.
 5. Use Burp Repeater to GET the PHP file and observe that the server executes it. Submit the secret to complete the lab.
 
-![File Upload Lab 1 Photo 1]({{ site.baseurl }}/images/file_upload_lab1_photo1.jpg) 
+![File Upload Lab 1 Photo 1]({{ site.baseurl }}/images/file_upload_lab1_photo_1.jpg) 
 The upload file functionality
 
 
