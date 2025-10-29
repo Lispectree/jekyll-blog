@@ -21,7 +21,7 @@ Host header attacks abuse how a web application or its middleware uses the HTTP 
 4. Take your original reset email URL, replace its token with the one you captured, visit it, and set a new password for Carlos.
 5. Log in as Carlos to confirm the account was reset and solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/643abe3857ecffcf649ef624a396826d1e17a1c4/web-security-labs/labs/http-host-header-attack/HEADER%20ATTACK%20LAB1%20PHOTO1.jpg)
+![HTTP Host Header Attacks Lab 1 Photo 1]({{ site.baseurl }}/images/header_attack_lab1_photo_1.jpg) 
 The lab instructions
 
 
