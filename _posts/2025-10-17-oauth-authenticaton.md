@@ -21,7 +21,7 @@ OAuth (Open Authorization) lets sites delegate authentication to third-party pro
 4. Use "Request in browser -> In original session" on that modified request to open the URL in your browser; you should be logged in as Carlos.
 5. Confirm you can access Carlos’s account to solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/18ec95278de2f0bbd269de560f06601be14d7afe/web-security-labs/labs/oauth-authentication/OATH%20LAB1%20PHOTO1.jpg)
+![OAUTH Lab 1 Photo 1]({{ site.baseurl }}/images/oath_lab1_photo_1.jpg)
 Sign in to the account with the details provided
 
 
