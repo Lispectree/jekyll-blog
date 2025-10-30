@@ -20,7 +20,7 @@ Insecure deserialization happens when an application accepts serialized data (st
 3. In Repeater's Inspector, change the `admin` value from `b:0` to `b:1`, apply changes so Burp re-encodes the cookie, then resend the request.
 4. Visit `/admin` and perform the admin action (for example, `/admin/delete?username=carlos`) to solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/41a99e3924b5a7d8ecb301a709e7907af69fafbe/web-security-labs/labs/insecure-deserialization/INSECURE%20LAB1%20PHOTO1.jpg)
+![Insecure Deserialization Lab 1 Photo 1]({{ site.baseurl }}/images/insecure_deserialization_lab1_photo_1.jpg)
 Lab instructions
 
 
