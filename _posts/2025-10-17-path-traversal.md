@@ -20,7 +20,7 @@ How a basic `../` sequence in a filename can let you read files outside the inte
 1. Use Burp Suite to capture the request that fetches a product image.
 2. Edit the filename parameter to: `../../../etc/passwd`.
 3. Send the modified request and check the response — if it contains `/etc/passwd` contents, the server returned a file it shouldn't.
-![image alt](https://github.com/Lispectree/web-sec/blob/df6bf18f5357fd39d9093d211e26a3d7e8be0187/web-security-labs/labs/path-traversal/PATH%20LAB1%20PHOTO1.jpg)
+![Path Traversal Lab 1 Photo 2]({{ site.baseurl }}/images/path_lab1_photo_2.jpg) 
 This request gets a jpg file from the server
 
 
