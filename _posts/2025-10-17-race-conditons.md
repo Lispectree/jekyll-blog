@@ -20,15 +20,15 @@ Race conditions occur when an application does not properly handle multiple oper
 4. Send the requests in parallel and observe that the discount is applied multiple times.
 5. Add the leather jacket and repeat to reduce the total below your store credit, then complete the purchase.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/f41a5f6289c1781a414abd7e26e9b2368f7b5128/web-security-labs/labs/race-conditions/RACE%20LAB1%20PHOTO1.jpg)
+![Race Condition Lab 1 Photo 1]({{ site.baseurl }}/images/race_lab1_photo_1.jpg)
 After logging in it shows you have a promo code
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/8be78f30fc21ce00b15040b16cb9dc61b698297b/web-security-labs/labs/race-conditions/RACE%20LAB1%20PHOTO2.jpg)
+![Race Condition Lab 1 Photo 2]({{ site.baseurl }}/images/race_lab1_photo_2.jpg)
 Try and acquire a product well above your balance by trying to make use of the promo code multiple times simultaneously through race conditions
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/6c0f37010d904f7da6a1f911991d56dc6e912234/web-security-labs/labs/race-conditions/RACE%20LAB1%20PHOTO3.jpg)
+![Race Condition Lab 1 Photo 3]({{ site.baseurl }}/images/race_lab1_photo_3.jpg)
 Send all the request in parallel
 
 ## Lab 2 — Multi-endpoint Race Conditions
@@ -42,15 +42,15 @@ Send all the request in parallel
 3. In Burp Repeater, send the requests in parallel instead of sequentially.
 4. Observe if the checkout succeeds even with insufficient funds.
 5. Repeat with the leather jacket until the purchase completes successfully.
-   ![image alt](https://github.com/Lispectree/web-sec/blob/258f8393cd40af5858257fbedacc312f3539af89/web-security-labs/labs/race-conditions/RACE%20LAB2%20PHOTO1.jpg)
+![Race Condition Lab 2 Photo 1]({{ site.baseurl }}/images/race_lab2_photo_1.jpg)
    The lab
 
 
- ![image alt](https://github.com/Lispectree/web-sec/blob/7f9b0076a3434e24c992fdb961b7adfbf9039743/web-security-labs/labs/race-conditions/RACE%20LAB2%20PHOTO2.jpg)
+![Race Condition Lab 2 Photo 2]({{ site.baseurl }}/images/race_lab2_photo_2.jpg)
  Send the cart and check out request simultaneously
 
 
-  ![image alt](https://github.com/Lispectree/web-sec/blob/f3b74ec9f36f10c8625a7cf124ce8d44c23d1641/web-security-labs/labs/race-conditions/RACE%20LAB2%20PHOTO3.jpg)
+![Race Condition Lab 2 Photo 3]({{ site.baseurl }}/images/race_lab2_photo_3.jpg)
   
 
 
@@ -66,8 +66,5 @@ Send all the request in parallel
 4. Change the username in one request to target another user, like carlos.
 5. Use the shared token to reset the other user's password and complete the lab.
 
-  ![image alt](https://github.com/Lispectree/web-sec/blob/411126e5fc1e698baf4d3a1d6fcd920c9729c912/web-security-labs/labs/race-conditions/RACE%20LAB3%20PHOTO1.jpg)
-  If you request for the forgot password functionality of two account 
-It generates same token
-Use that to access Carlos account
+
 
