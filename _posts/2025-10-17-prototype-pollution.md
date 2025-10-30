@@ -21,7 +21,7 @@ Prototype pollution happens when attacker-controlled input can modify built-in J
 4. Inject a `value` property via the query string: `/?__proto__[value]=data:,alert(1);` and reload. The page should insert a `<script src="data:,alert(1);">` (or similar) and execute the `alert()`.
 5. The alert confirms the prototype pollution source and gadget are exploitable — lab solved.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/ff19da61ddebe1794f8d28644e76a59733bf2bc1/web-security-labs/labs/prototype-pollution/PROTO%20LAB1%20PHOTO1.jpg)
+![Prototype Pollution Lab 1 Photo 2]({{ site.baseurl }}/images/proto_lab1_photo_2.jpg)
 The search url can be used to contaminate the prototype
 
 
