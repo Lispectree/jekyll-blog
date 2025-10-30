@@ -20,7 +20,7 @@ How adding a command separator and a small system command to an input can make t
 1. Open the page that checks stock and use Burp Suite to intercept the request it sends.
 2. Edit the `storeID` value so it contains a command, for example: `1|whoami`. The `|` means “run this command too.”
 3. Send the edited request and look at the response — if it contains a username (the result of `whoami`), the server executed your command.
-![image alt](https://github.com/Lispectree/web-sec/blob/58a7c801f1d19cdeacbc32cab91cf8bffca70a6a/web-security-labs/labs/os-command-injection/OS%20LAB1%20PHOTO1.jpg)
+![OS Command Lab 1 Photo 1]({{ site.baseurl }}/images/os_lab1_photo_1.jpg)
 Lab instructions
 
 
