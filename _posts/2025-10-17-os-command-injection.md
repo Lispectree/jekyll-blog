@@ -24,7 +24,7 @@ How adding a command separator and a small system command to an input can make t
 Lab instructions
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/0f72540f9e44f69416517689bf768100d6745108/web-security-labs/labs/os-command-injection/OS%20LAB1%20PHOTO2.jpg)
+![OAUTH Lab 1 Photo 2]({{ site.baseurl }}/images/oath_lab1_photo_2.jpg)
 The command to generate the use
 
 ---
@@ -41,16 +41,16 @@ How to run a command that writes its output to a file, then request that file to
 2. Send that feedback request so the server executes the command and writes the file.
 3. Intercept the request that loads a product image, change the `filename` parameter to `output.txt`, and send it. The response will contain the contents of `output.txt` (the command output), showing the injection worked.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/a88708c338cf118b53e8e2ea9df83596ae5cd5fc/web-security-labs/labs/os-command-injection/OS%20LAB2%20PHOTO1.jpg)
+![OAUTH Lab 2 Photo 1]({{ site.baseurl }}/images/oath_lab2_photo_1.jpg)
 The email section is vulnerable to command injection
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/835726c849f8d1178228f53565698feeef773b77/web-security-labs/labs/os-command-injection/OS%20LAB2%20PHOTO2.jpg)
+![OAUTH Lab 2 Photo 2]({{ site.baseurl }}/images/oath_lab2_photo_2.jpg)
 But it doesn’t disclose anything 
 So we test it by telling the server to sleep for 5sec before responding
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/8018894fefcd1857c882fe282ee117d99a2f7858/web-security-labs/labs/os-command-injection/OS%20LAB2%20PHOTO3.jpg)
+![OAUTH Lab 2 Photo 3]({{ site.baseurl }}/images/oath_lab2_photo_3.jpg)
 We that use redirection to disclose the whoami command inside a txt file
 
 
