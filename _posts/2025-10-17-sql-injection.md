@@ -38,15 +38,8 @@ How to add simple text to a page’s results to check where text appears, and th
 3. Edit the captured request so the category part includes a short test that adds two words (for example `abc` and `def`) using a UNION-style trick. This test shows if those words appear on the product page.
 4. After you see the test words on the page, send a second edit that asks the database to show its version. The version string will appear on the page where the test words were shown.
 
-**Images (placeholders — add 2–3 screenshots):**
+![SQL Injection]({{ site.baseurl }}/sqli_lab2_photo_1.jpg)
 
-* `images/sqli_dbversion_step1.png`
-* `images/sqli_dbversion_step2.png`
-* `images/sqli_dbversion_step3.png`
-
-**Quick note:** You are not breaking anything — you are just asking the site to show extra text where it already shows results.
-
----
 
 ## Lab 3 — Finding a text column (UNION attack — locate visible column)
 
@@ -60,13 +53,6 @@ How to find which position in the page output can display text so you know where
 3. Then replace each placeholder, one at a time, with a visible word like `abcdef` and send the request again.
 4. When the page shows `abcdef`, you know that column can display text and you can use that position to show other data.
 
-**Images (placeholders — add 2–3 screenshots):**
-
-* `images/sqli_findtextcol_step1.png`
-* `images/sqli_findtextcol_step2.png`
-* `images/sqli_findtextcol_step3.png`
-
-**Quick note:** Try one change at a time — replace only one placeholder per request so you can see exactly which spot shows text.
 
 ---
 
@@ -81,13 +67,6 @@ How to prove the site runs your injected command even when it won’t show resul
 2. Edit the cookie value so it asks the database to wait for 10 seconds before replying: `TrackingId=x'||pg_sleep(10)--`.
 3. Send the edited request. If the page takes about 10 seconds longer to respond, that proves the injection worked even though no data was shown.
 
-**Images (placeholders — add 2–3 screenshots):**
-
-* `images/sqli_blind_timedelay_step1.png`
-* `images/sqli_blind_timedelay_step2.png`
-* `images/sqli_blind_timedelay_step3.png`
-
-**Quick note:** Time delays only show that the site ran your command; they don’t return data. Use them when the site hides its database output.
 
 ---
 
