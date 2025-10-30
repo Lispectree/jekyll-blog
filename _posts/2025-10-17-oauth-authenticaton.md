@@ -25,7 +25,7 @@ OAuth (Open Authorization) lets sites delegate authentication to third-party pro
 Sign in to the account with the details provided
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/1787b3553fa915d3244e76303578427c63ac46d0/web-security-labs/labs/oauth-authentication/OATH%20LAB1%20PHOTO2.jpg)
+![OAUTH Lab 1 Photo 2]({{ site.baseurl }}/images/oath_lab1_photo_2.jpg)
 In the request of that authentication 
 You can change the email to any email address of your choice
 
@@ -41,15 +41,15 @@ You can change the email to any email address of your choice
 4. When the victim loads the exploit, their browser will follow the iframe URL and attach your social account to the victim’s blog account.
 5. Now choose "Log in with social media" on the blog — you get logged in as the victim (admin); go to the admin panel and delete Carlos to solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/53f534469ec4445245321a9052151a6f2341840d/web-security-labs/labs/oauth-authentication/OATH%20LAB2%20PHOTO1.jpg)
+![OAUTH Lab 2 Photo 1]({{ site.baseurl }}/images/oath_lab2_photo_1.jpg)
 Try and add a social media after logging in
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/fdc0f68905424542174345120ab256322eebfe27/web-security-labs/labs/oauth-authentication/OATH%20LAB2%20PHOTO2.jpg)
+![OAUTH Lab 2 Photo 2]({{ site.baseurl }}/images/oath_lab2_photo_2.jpg)
 A code is generated to link your social media
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/6c20f78abd655d35a5f3fd5b026a2b3f2997c967/web-security-labs/labs/oauth-authentication/OATH%20LAB2%20PHOTO3.jpg)
+![OAUTH Lab 2 Photo 3]({{ site.baseurl }}/images/oath_lab2_photo_3.jpg)
 Craft an exploit on the exploit server
 
 
@@ -65,15 +65,15 @@ Craft an exploit on the exploit server
 4. Host a small script on the exploit server that reads `location.hash` and sends it to your server (or logs it). Deliver the crafted authorization URL to the victim so their browser returns the token in the fragment to your exploit page.
 5. Retrieve the stolen access token from your exploit server logs, place it into the Authorization header for the `/me` request in Repeater, fetch the victim’s data (including their API key), and submit it to solve the lab.
  
-   ![image alt](https://github.com/Lispectree/web-sec/blob/52d2c61ff60e8e33dda4dab46af9178985df8a12/web-security-labs/labs/oauth-authentication/OATH%20LAB3%20PHOTO1.jpg)
+![OAUTH Lab 3 Photo 1]({{ site.baseurl }}/images/oath_lab3_photo_1.jpg)
    The redirect url that is prone to path traversal
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/5290a9e47769e51dc42e82314760aefcfbb07a69/web-security-labs/labs/oauth-authentication/OATH%20LAB3%20PHOTO2.jpg)
+![OAUTH Lab 3 Photo 2]({{ site.baseurl }}/images/oath_lab3_photo_2.jpg)
 Deliver a script to the victim
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/d14920352c38f9a71faa995e75ba17bf49797fa8/web-security-labs/labs/oauth-authentication/OATH%20LAB3%20PHOTO3.jpg)
+![OAUTH Lab 3 Photo 3]({{ site.baseurl }}/images/oath_lab3_photo_3.jpg)
 The access token of the victim
 
 
