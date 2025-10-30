@@ -25,10 +25,9 @@ Prototype pollution happens when attacker-controlled input can modify built-in J
 The search url can be used to contaminate the prototype
 
 
-![Path Traversal Lab 1 Photo 2]({{ site.baseurl }}/images/path_lab1_photo_2.jpg)
+![Prototype Pollution Lab 1 Photo 2]({{ site.baseurl }}/images/proto_lab1_photo_2.jpg)
 
-
-![image alt](https://github.com/Lispectree/web-sec/blob/36a28e57bb99126b8be6e4e0b4f4e90b9e9f27d6/web-security-labs/labs/prototype-pollution/PROTO%20LAB1%20PHOTO3.jpg)
+![Prototype Pollution Lab 1 Photo 3]({{ site.baseurl }}/images/proto_lab1_photo_3.jpg)
 Use a payload to get an alert
 
 
@@ -43,15 +42,15 @@ Use a payload to get an alert
 3. Inject `transport_url` via the query string: `/?__proto__[transport_url]=data:,alert(1);` and reload the page.
 4. Confirm an injected `<script>` tag with `src="data:,alert(1);"` appears and that `alert(1)` runs — lab solved.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/c716e53f0daa2a6c5cefa0d4381bba3db943d18e/web-security-labs/labs/prototype-pollution/PROTO%20LAB2%20PHOTO1.jpg)
+![Prototype Pollution Lab 2 Photo 1]({{ site.baseurl }}/images/proto_lab2_photo_1.jpg)
 Make use of the DOM invader option
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/8c0cee7c6c425d7ed6a60a12c689ae3b1dd75323/web-security-labs/labs/prototype-pollution/PROTO%20LAB2%20PHOTO2.jpg)
+![Prototype Pollution Lab 2 Photo 2]({{ site.baseurl }}/images/proto_lab2_photo_2.jpg)
 The proto sources
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/e03fe994c2765a09e66551ac668fee474ab9f491/web-security-labs/labs/prototype-pollution/PROTO%20LAB2%20PHOTO3.jpg)
+![Prototype Pollution Lab 2 Photo 3]({{ site.baseurl }}/images/proto_lab2_photo_3.jpg)
 The script for the prototype pollution being showed by the DOM invader
 
 
@@ -66,11 +65,11 @@ The script for the prototype pollution being showed by the DOM invader
 3. Click **Exploit** in DOM Invader to auto-generate a PoC — it should call `alert(1)` demonstrating the gadget is usable.
 4. To attack a victim, host a navigation exploit on the exploit server that points the victim to `#__proto__[hitCallback]=alert(document.cookie)` and deliver it. When the victim loads the site, the polluted `hitCallback` will execute and leak cookies — lab solved.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/343fdc2f4b4a916b983b31b6976cecc8c02ed04b/web-security-labs/labs/prototype-pollution/PROTO%20LAB3%20PHOTO1.jpg)
+![Prototype Pollution Lab 3 Photo 1]({{ site.baseurl }}/images/proto_lab3_photo_1.jpg)
 The value of the prototype that can be polluted
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/9a2db861f912b6f538b88c731002581a4395cda9/web-security-labs/labs/prototype-pollution/PROTO%20LAB3%20PHOTO2.jpg)
+![Prototype Pollution Lab 3 Photo 2]({{ site.baseurl }}/images/proto_lab3_photo_2.jpg)
 Deliver the exploit to the victim through the exploit server
 
 
