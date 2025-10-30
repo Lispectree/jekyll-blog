@@ -22,13 +22,7 @@ How changing the username in the login message can make the site accept the logi
 3. In the caught message, replace the username with: `administrator'--`.
 4. Forward (send) the edited message. The site will log you in as the administrator even though you did not enter the real password.
 
-**Images (placeholders — add 2–3 screenshots):**
-
-* `images/sqli_login_bypass_step1.png`
-* `images/sqli_login_bypass_step2.png`
-* `images/sqli_login_bypass_step3.png`
-
-**Quick note:** Think of Burp catching the message like pausing a letter before the post office delivers it — you can open the letter, change it, and then let it be sent.
+![SQL Injection]({{ site.baseurl }}/sqli_lab1_photo_1.jpg)
 
 ---
 
