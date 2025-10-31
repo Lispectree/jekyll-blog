@@ -26,7 +26,7 @@ After logging in
 You are required to buy the leather jacket
 But your balance won’t be able to purchase it
 
-![BUS LOGIC LAB 1 Photo 2]({{ site.baseurl }}/images/bus_logic_lab1_photo_2.jpg)
+![Business Logic LAB 1 Photo 2]({{ site.baseurl }}/images/bus_logic_lab1_photo_2.jpg)
 The add to cart request of the jacket
 The price is client controlled and can be reduced to any price
 
@@ -45,13 +45,13 @@ The price is client controlled and can be reduced to any price
 4. Apply both codes, alternating between them to bypass the single-use rule.
 5. Keep reusing the codes until the total is below your store credit, then place the order.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/6cd527c807c701226c9871142c7e48d1589805cc/web-security-labs/labs/business-logic/BUS%20LOGIC%20photo1%20lab2.jpg)
+![Business Logic Lab 2 Photo 1]({{ site.baseurl }}/images/bus_logic_lab2_photo_1.jpg)
 The first coupon
 
-![image alt](https://github.com/Lispectree/web-sec/blob/a36fb4107e9cdae57a364df756aa041cfb921b22/web-security-labs/labs/business-logic/BUS%20LOGIC%20photo2%20lab2.jpg)
+![Business Logic Lab 2 Photo 2]({{ site.baseurl }}/images/bus_logic_lab2_photo_2.jpg)
 2nd coupon after signing up
 
-![image alt](https://github.com/Lispectree/web-sec/blob/5daf4866636358cc01b2e7f5ed3db5cac7dbcb84/web-security-labs/labs/business-logic/BUS%20LOGIC%20photo3%20lab2.jpg)
+![Business Logic Lab 2 Photo 3]({{ site.baseurl }}/images/bus_logic_lab2_photo_3.jpg)
 Use the coupon alternatively to get a balance of $0 and purchase it
 
 
@@ -70,10 +70,10 @@ Use the coupon alternatively to get a balance of $0 and purchase it
 4. Forward the first login request, drop the next role-selection request, then go to the home page.
 5. Observe you are now logged in as an administrator and complete the lab task.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/6f05485f85f1a2d676c031fed938e6c2b9683b83/web-security-labs/labs/business-logic/BUS%20LOGIC%20photo1%20lab3.jpg)
+![Business Logic Lab 3 Photo 1]({{ site.baseurl }}/images/bus_logic_lab3_photo_1.jpg)
 After logging in you are expected to select a role before you are granted access to
 
-![image alt](https://github.com/Lispectree/web-sec/blob/fe3337010d2e7b42430f8674d053ac21dee83827/web-security-labs/labs/business-logic/BUS%20LOGIC%20photo2%20lab3.jpg)
+![Business Logic Lab 3 Photo 2]({{ site.baseurl }}/images/bus_logic_lab3_photo_2.jpg)
 Put on your intercept and drop the role selector request
 This will give you access to the admin panel
 
