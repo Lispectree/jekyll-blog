@@ -21,15 +21,15 @@ Web cache deception attacks trick a cache into storing private pages under URLs 
 4. On the exploit server, create a small page that redirects Carlos to the cached URL (use a unique path so his view becomes cached).
 5. Visit the crafted URL for Carlos, then open that cached URL yourself and copy Carlos’s API key to solve the lab.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/b3f95b17ba2dfc2ed91f6abbb24eb11988ba3485/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB1%20PHOTO1.jpg)
+![Web Cache Deception Lab 1 Photo 1]({{ site.baseurl }}/images/web_dec_lab1_photo_1.jpg)
 The login shows your api key
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/62af85abe4e73c4cc28037eb5a79fb55d1b1c1a9/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB1%20PHOTO2.jpg)
+![Web Cache Deception Lab 1 Photo 2]({{ site.baseurl }}/images/web_dec_lab1_photo_2.jpg)
 The target api key will save in the cache
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/26b4a80bd2cc9b6ea59660cab2001a43510a4bbc/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB1%20PHOTO3.jpg)
+![Web Cache Deception Lab 1 Photo 3]({{ site.baseurl }}/images/web_dec_lab1_photo_3.jpg)
 The target api key
 
 
@@ -45,15 +45,15 @@ The target api key
 4. In Repeater, try adding an encoded dot-segment like /aaa/..%2fmy-account to confirm the origin resolves it to /my-account.
 5. Craft a cached URL using the resources prefix (e.g. /resources/..%2fmy-account?wcd), deliver it to Carlos from the exploit server, then open it yourself and copy his API key.
 
-![image alt](https://github.com/Lispectree/web-sec/blob/8545e8d563946cb60744a0a5327112cc30882604/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB2%20PHOTO1.jpg)
+![Web Cache Deception Lab 2 Photo 1]({{ site.baseurl }}/images/web_dec_lab2_photo_1.jpg)
 This shows cache is being used
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/754a6026d3641990ef1bf31b807936afd28967b9/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB2%20PHOTO2.jpg)
+![Web Cache Deception Lab 2 Photo 2]({{ site.baseurl }}/images/web_dec_lab2_photo_2.jpg)
 A delimeter that allows for the manipulation for the query is “?”
 
 
-![image alt](https://github.com/Lispectree/web-sec/blob/08a4525a319e72768abeeb58319ae43a4734f418/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB2%20PHOTO3.jpg)
+![Web Cache Deception Lab 2 Photo 3]({{ site.baseurl }}/images/web_dec_lab2_photo_3.jpg)
 Deliver the exploit and access the api of the victim
 
 ## Lab 3 — Exploiting origin server normalization for web cache deception
@@ -68,15 +68,15 @@ Deliver the exploit and access the api of the victim
 4. Combine these to build /resources/..%2fmy-account, send it to create a cache entry, then deliver a link to Carlos from the exploit server.
 5. Open the delivered URL, copy Carlos’s API key, and submit it to solve the lab.
 
- ![image alt](https://github.com/Lispectree/web-sec/blob/767da6895207f734158bcd4456234e6cc9abb591/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB3%20PHOTO1.jpg)
+![Web Cache Deception Lab 3 Photo 1]({{ site.baseurl }}/images/web_dec_lab3_photo_1.jpg)
  Evidence of the use of cache
 
 
-  ![image alt](https://github.com/Lispectree/web-sec/blob/5b8d0094d968eec66716750003cf90900d7620ed/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB3%20PHOTO2.jpg)
+![Web Cache Deception Lab 3 Photo 2]({{ site.baseurl }}/images/web_dec_lab3_photo_2.jpg)
   Using path traversal we are able to make a my-account request get saved in the cache by decieving the web app that it’s a request for resources
 
 
-  ![image alt](https://github.com/Lispectree/web-sec/blob/49044df8f22e0ad85d5919bb48353450ee38dd4f/web-security-labs/labs/web-cache-deception/WEB%20DEC%20LAB3%20PHOTO3.jpg)
+![Web Cache Deception Lab 3 Photo 3]({{ site.baseurl }}/images/web_dec_lab3_photo_3.jpg)
   Deliver the exploit
  
 
