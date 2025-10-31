@@ -21,11 +21,9 @@ WebSocket vulnerabilities arise when real-time messages between the browser and 
 4. Turn on WebSocket message interception in Burp, send another message, and intercept the outgoing frame.
 5. Edit the intercepted frame to include `<img src=1 onerror='alert(1)'>`, forward it, and observe the alert in your browser (and the support agent's browser).
 
-*Images (placeholders — add 2–3 screenshots):*
+![Web Socket Lab 1 Photo 1]({{ site.baseurl }}/images/web_soc_lab1_photo_1.jpg)
 
-* web_sockets_manipulate_messages_step1.png
-* web_sockets_manipulate_messages_step2.png
-* web_sockets_manipulate_messages_step3.png
+![Web Socket Lab 1 Photo 2]({{ site.baseurl }}/images/web_soc_lab1_photo_2.jpg)
 
 
 ## Lab 2 — Manipulating the WebSocket handshake to exploit protections
@@ -40,10 +38,6 @@ WebSocket vulnerabilities arise when real-time messages between the browser and 
 4. Send an obfuscated payload such as `<img src=1 oNeRrOr=alert`1`>` and observe it is accepted.
 5. Confirm the payload executes in the target browser to solve the lab.
 
-*Images (placeholders — add 2–3 screenshots):*
 
-* web_sockets_handshake_spoof_step1.png
-* web_sockets_handshake_spoof_step2.png
-* web_sockets_handshake_spoof_step3.png
 
 
